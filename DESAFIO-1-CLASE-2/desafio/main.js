@@ -17,7 +17,7 @@ class User {
         // const titleBooks = this.books.map( book => book.title);
 
         const message = `El usuario es:
-                        ➡️ Nombre: ${this.name}, ${this.apellido}.
+                        ➡️ Nombre: ${this.name}, ${this.surname}.
                         ➡️ Mascotas: ${this.pets}.
                         ➡️ Libros: ${this.getBooksName}.`;
         return message;
